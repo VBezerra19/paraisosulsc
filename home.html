@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linda SC</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>    
+        <!-- header section starts  -->
+        <header>
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <a href="#" class="logo"><span>PARAISO</span> SUL/SC</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#gallery">Atrativos</a>
+                <a href="#services">Serviços</a>
+                <a href="#packages">Onde Ficar</a>
+                <a href="#book">Reservas</a>                
+                <a href="#review">Clientes</a>
+                <a href="#contact">Contato</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </header>
+        <!-- header section ends -->
+        <!-- login form container  -->
+        <div class="login-form-container">
+            <i class="fas fa-times" id="form-close"></i>
+            <form action="">
+                <h3>login</h3>
+                <input type="email" class="box" placeholder="Seu email">
+                <input type="password" class="box" placeholder="Sua senha">
+                <input type="submit" value="Se conectar" class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">Lembrar seu email</label>
+                <p>Esqueceu a senha?<a href="#">clique aqui</a></p>
+                <p>Não tem uma conta? <a href="#">Criar uma nova contar</a></p>
+            </form>
+        </div>
+        <!-- home section starts  -->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Conheça esse paraiso chamado SUL de SC</h3>
+                <p>Lindas Praias, Dunas, Serra, Lagoas, Cachoeiras, História e muito mais...</p>
+                <a href="#" class="btn">Saiba mais!</a>
+            </div>
+            <div class="controls">
+                <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+                <span class="vid-btn" data-src="images/Corvo"></span>
+                <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+                <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+                <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+                <span class="vid-btn" data-src="images/vid-6.mp4"></span>
+            </div>
+            <div class="video-container">
+                <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+            </div>
+        </section>
+        <!-- home section ends -->
+        <!-- gallery section starts  -->
+        <section class="gallery" id="gallery">
+            <h1 class="heading">
+                <span>A</span>
+                <span>T</span>
+                <span>R</span>
+                <span>A</span>
+                <span>T</span>
+                <span>I</span>
+                <span>V</span>
+                <span>O</span>
+                <span>S</span>
+            </h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/praia-da-ferrugem.jpg" alt="">
+                    <div class="content">
+                        <h3>Praia da Ferrugem</h3>
+                        <p>A Praia da Ferrugem é uma das nove praias do município catarinense de Garopaba.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/praia-da-ferrugem.jpg" alt="">
+                    <div class="content">
+                        <h3>Praia da Ferrugem</h3>
+                        <p>A Praia da Ferrugem é uma das nove praias do município catarinense de Garopaba.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/praia-da-ferrugem.jpg" alt="">
+                    <div class="content">
+                        <h3>Praia da Ferrugem</h3>
+                        <p>A Praia da Ferrugem é uma das nove praias do município catarinense de Garopaba.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/praia-da-ferrugem.jpg" alt="">
+                    <div class="content">
+                        <h3>Praia da Ferrugem</h3>
+                        <p>A Praia da Ferrugem é uma das nove praias do município catarinense de Garopaba.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/home-imbituba-3.jpg" alt="">
+                    <div class="content">
+                        <h3>Imbituba</h3>
+                        <p>Com a chegada do inverno, começa oficialmente a temporada de observação de Baleias Franca no litoral sul de Santa Catarina.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/praia-do-rosa-vista-aerea.jpg" alt="">
+                    <div class="content">
+                        <h3>Praia do Rosa</h3>
+                        <p>Paraíso tropical conhecido por praias, barracas de comida, trilhas, surfe e observação de baleias</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/ibiraquera.jpeg" alt="">
+                    <div class="content">
+                        <h3>Praia Barra Ibiraquera</h3>
+                        <p>A <b>Praia da Barra de Ibiraquera</b> é perfeita para passar dias em família com os pés na areia ou tomar agradáveis banhos de mar. </p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/laguna ok.png" alt="">
+                    <div class="content">
+                        <h3>Centro Histórico Laguna</h3>
+                        <p>Fundada em 1676, Laguna serviu como posto avançado da coroa portuguesa, utilizada como ponto estratégico de apoio para o desbravamento da região sul.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/ponte .jpg" alt="">
+                    <div class="content">
+                        <h3>Ponte Anita Garibaldi</h3>
+                        <p>A ponte Anita Garibaldi é uma ponte suspensa em formato estaiado localizada no município de Laguna, no sul do estado de SC.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/Boto_Pescador_1_1x.jpg" alt="">
+                    <div class="content">
+                        <h3>Boto Pescador</h3>
+                        <p>Esta espécie auxilia os pescadores guiando os
+                            cardumes para dentro das tarrafas na Barra de
+                            Laguna, em Santa Catarina.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/farol sta.jpg" alt="">
+                    <div class="content">
+                        <h3>Farol de Santa Marta</h3>
+                        <p>Farol de Santa Marta é um farol localizado no Cabo de Santa Marta. Possuem 2 metros de espessura. Inauguração: 1891</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/treze-de-maio.jpg" alt="">
+                    <div class="content">
+                        <h3>Treze de Maio</h3>
+                        <p>Um castelo em estilo medieval que fica no alto de uma colina. </p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/castelo britanico.jpg" alt="">
+                    <div class="content">
+                        <h3>Castelo Britanico</h3>
+                        <p>Cocal do Sul é o município onde fica localizado o Castelo Britânico, o projeto começou em 1998 para a construção desse grande monumento arquitetônico.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/piramedes sagrada.jpeg" alt="">
+                    <div class="content">
+                        <h3>Pirâmedes Sagradas</h3>
+                        <p>Local mágico e escondido em Santa Catarina, cercado por uma serra de montanhas em formato de pirâmides.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/serra-do-corvo-branco-2.jpg" alt="">
+                    <div class="content">
+                        <h3>Serra do Corvo Branco</h3>
+                        <p>A Serra do Corvo Branco possui o maior corte em rocha no Brasil com 90 metros de profundidade e é uma das principais atrações de Urubici SC.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>            
+                </div>
+                <div class="box">
+                    <img src="images/pedra furada .jpg" alt="">
+                    <div class="content">
+                        <h3>Pedra Furada</h3>
+                        <p>A Pedra Furada é uma formação geológica localizada no Parque Nacional de São Joaquim, na vertente das Escarpas da Serra Geral.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/balanco-infinito-canion-espraiado.jpg">
+                    <div class="content">
+                        <h3>Praia Grande SC</h3>
+                        <p>Balanço do Infinito em frente aos cânions catarinenses é atração em Urubici.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/Funil-Anders.jpg" alt="">
+                    <div class="content">
+                        <h3>Cânion do Funil</h3>
+                        <p>O cânion do Funil fica a 1590 m de altitude em seu ponto mais elevado (lado norte) e em torno de 1450 m no lado sul.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/camprete.jpg" alt="">
+                    <div class="content">
+                        <h3>Morro do Campestre</h3>
+                        <p>Formações elevadas de arenito a mais de 1.371 m de altitude neste morro com vista para o Vale do Rio Canoas.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/rastro .jpg" alt="">
+                    <div class="content">
+                        <h3>Serra do Rio do Rastro</h3>
+                        <p> Localiza-se no município de Lauro Müller, a mais de 1421 metros de altitude. Um mirante localizado em seu topo proporciona uma visão panorâmica..</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/rocinha.jpg" alt="">
+                    <div class="content">
+                        <h3>Serra da Rocinha</h3>
+                        <p>A <b>Serra da Rocinha</b> é uma estrada espetacular que atravessa escarpas íngremes da Serra Geral, no Sul do Brasil.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/maxresdefault.jpg" alt="">
+                    <div class="content">
+                        <h3>Cachoeira Quilombo</h3>
+                        <p>Conhecida como a Foz do Iguaçu catarinense arranca suspiro de todos os seus visitantes.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/Praia-Grande-SC-Capa-2.jpg" alt="">
+                    <div class="content">
+                        <h3>Canyons </h3>
+                        <p>Conhecida como a Capital dos Canyons, Praia Grande é um dos municípios com o maior desenvolvimento turístico de Santa Catarina</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/Praia-Grande-SC-Capa-2.jpg" alt="">
+                    <div class="content">
+                        <h3>Canyons </h3>
+                        <p>Conhecida como a Capital dos Canyons, Praia Grande é um dos municípios com o maior desenvolvimento turístico de Santa Catarina</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/Praia-Grande-SC-Capa-2.jpg" alt="">
+                    <div class="content">
+                        <h3>Canyons </h3>
+                        <p>Conhecida como a Capital dos Canyons, Praia Grande é um dos municípios com o maior desenvolvimento turístico de Santa Catarina</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/Praia-Grande-SC-Capa-2.jpg" alt="">
+                    <div class="content">
+                        <h3>Canyons </h3>
+                        <p>Conhecida como a Capital dos Canyons, Praia Grande é um dos municípios com o maior desenvolvimento turístico de Santa Catarina</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/balão.png" alt="">
+                    <div class="content">
+                        <h3>Passeio de Balão</h3>
+                        <p>Conhecida como a Capital dos Canyons, o município Praia Grande-SC está se transformando também na Capital dos Balões.</p>
+                        <a href="#" class="btn">Conheça mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery section ends -->
+        <!-- services section starts  -->
+        <section class="services" id="services">
+            <h1 class="heading">
+                <span>S</span>
+                <span>E</span>
+                <span>R</span>
+                <span>V</span>
+                <span>I</span>
+                <span>C</span>
+                <span>E</span>
+                <span>S</span>
+            </h1>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Hospedagem</h3>
+                    <p>Além dos chalés já citados contamos com dezenas de outros chalés, pousadas e hotéis para todos os bolsos e gostos. Você e a sua familia e os seus amigos serão todos muito bem vindos no nosso paraiso!</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Lanchonetes e Restaurantes</h3>
+                    <p>Restaurante do Galego, Canoas Bristrôo, Ney Lanches e Restaurante, Rony Lanches, Divino Lanches, Restaurante por do Sol</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Guia de viagem</h3>
+                    <p>Esse site tem como objetivo ser um guia on line com as principais dicas de passeios, trilhas, pontos turisticos, historias para que você venha conhecer o Nosso Paraiso chamado Sul-SC</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>ROTA PARA O PARAISO</h3>
+                    <p>Pessoas das mais diversas partes do mundo todos os anos nos visitam e se encantam com toda a beleza da nossa região e alguns para a nossa felicidade tem fixado residencia.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>COMO CHEGAR?</h3>
+                    <p>Contamos com aeroportos, portos, rota de cruzeiros, e uma malha de rodovias tornando fácil o acesso para todos os encantos que fazem da nossa região um verdadeiro <b> PARAISO</b>!</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <h3>AVENTURAS</h3>
+                    <p>Trilhas dos mais diversos niveis de dificuldades,  Sandboard, Balonisno, Windsurf, KiteSurf, Surf, Stand-up Padle, Kaique, Veleiro, Canoagem, Escalada e muito mais...</p>
+                </div>
+            </div>
+        </section>
+        <!-- services section ends -->
+        <!-- packages section starts  -->
+        <section class="packages" id="packages">
+
+            <h1 class="heading">
+                <span>O</span>
+                <span>N</span>
+                <span>D</span>
+                <span>E</span>
+                <span class="space"></span>
+                <span>F</span>
+                <span>I</span>
+                <span>C</span>
+                <span>A</span>
+                <span>R</span>
+                <span class="space"></span>
+                <span>?</span>
+            </h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/hospedagem/mirante da lagora.png" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Chalés Mirante da Lagoa</h3>
+                        <p>"Os nossos 2 Chalés misturam o rústico com o sofisticado; proporcionando para os nossos hospedes a experiencia da vida no campo com contato com animais e tudo isso a beira da lagoa. <br>    (48) 984126635"<br> Em Imaruí - SC </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price"> $300.00 <span>$420.00</span> </div>
+                        <a href="#" class="btn">Faça já a sua reserva!</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/hospedagem/chacara das estrelas.png" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Chácara das Estrelas </h3>
+                        <p>"Nossos 2 Chalés rústicos da <b>Chácara das Estrelas</b> surgem com uma proposta de experiência no campo e ao mesmo tempo, aconchegante. Unindo assim praticidade, conforto, contato com os animais e com a natureza."<br> Em Imaruí - SC <p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price"> $400.00 <span>$450.00</span> </div>
+                        <a href="#" class="btn">Faça já a sua reserva!</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/hospedagem/deucher.png" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Casa de Campo Deucher</h3>
+                        <p>"A <b>Casa de Campo Deucher</b> é o um lugar perfeito para relaxar, toda cercada, ideal para seus pets. Temos um ambiente que proporciona tranquilidade e vista pra natureza, ideal para descansar e fugir da Rotina."<br> Em Imaruí - SC </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $320.00 <span>$350.00</span> </div>
+                        <a href="#" class="btn">Faça já a sua reserva!</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/hospedagem/cachoeira dos piloes.png" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Chalé Recanto da Cachoeira</h3>
+                        <p>"O <b>Chalé Recanto da Cachoeira</b> está localizado em frente a <b>Cachoeira dos Pilões,</b> é uma hospedagem aconchegante e romântica, lugar perfeito para se conectar com a natureza!"<br> Em Imaruí - SC</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $246.00 <span>$300.00</span> </div>
+                        <a href="#" class="btn">Faça sua reserva!</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/hospedagem/vilage.png" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Village Floriana</h3>
+                    <p>"Espaço com aconchego natural que dispõe tranquilidade e relaxamento, banhados pela Lagoa de Imarui. Venha reabastecer suas energias! Caso deseje, poderá solicitar um kit de café da manhã (não incluso no valor de hospedagem)"<br><br> Em Imaruí - SC </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $394.00 <span>$425.00</span> </div>
+                        <a href="#" class="btn">Faça já a sua reserva!</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/hospedagem/chale da lagoa 1.png" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Chalé da Lagoa</h3>
+                        <p>"O <b>Chalé da Lagoa</b> foi construído buscando oferecer conforto e tranquilidade aos hóspedes, ambiente rústico e possuem vista panorâmica da lagoa, fica a <b>100 metros</b> da lagoa. Com porto particular e caiques a disposição dos nossos hospedes" <br> Em Imaruí - SC </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $400.00 <span>$450.00</span> </div>
+                        <a href="#" class="btn">Faça já a sua reserva!</a>
+                    </div>
+                </div>
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/hospedagem/chale da lagoa  2.png" alt="">
+                        <div class="content">
+                            <h3> <i class="fas fa-map-marker-alt"></i> Chalés Nascer do Sol</h3>
+                            <p>"O <b>Chalé Nascer do Sol</b> foi construído buscando oferecer conforto e tranquilidade aos hóspedes em um ambiente rústico e acolhedor em meio à natureza e com vista para a linda lagoa. <br> Em Imaruí - SC </p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"  ></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price"> $300.00 <span>$350.00</span> </div>
+                            <a href="#" class="btn">Faça já a sua reserva!</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/hospedagem/bebero chales .png" alt="">
+                        <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i> Sítio Berebello </h3>
+                            <p>"Com 4 aconchegantes cabanas, temos piscina, lago, cascata, pracinha infantil, capela, trilha, salão de festas com mesa de bilhar e ping pong, balanço panorâmico, com uma incrível vista para a Lagoa de Imaruí!"  - Em Imaruí - SC <p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price"> $230.00 <span>$280.00</span> </div>
+                            <a href="#" class="btn">Faça já a sua reserva!</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/hospedagem/cabana rastro.png" alt="">
+                        <div class="content">
+                            <h3> <i class="fas fa-map-marker-alt"></i> Chalés Recanto Do Vale</h3>
+                            <p>"O <b>Chalé Recanto do Vale</b> é uma cabana encantadora e muito aconchegante. Acomoda até 6 pessoas confortavelmente, crianças e pets são super bem vindos!<br> <br>Em Bom Jardim da Serra - SC</p>
+                            
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price"> $656.00 <span>$720.00</span> </div>
+                            <a href="#" class="btn">Faça já a sua reserva!</a>
+                        </div>
+                    </div>
+                <div class="box">
+                    <img src="images/hospedagem/grão para.png" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Pousada Recanto da Gruta </h3>
+                        <p>"A <b>Pousada Recanto da Gruta</b> é perfeita para passar momentos inesquecíveis com sua família e amigos na Serra Catarinense. Em Grão Pará temos A impressionante Serra do Corvo Branco e as Pirâmedes Sagradas entre outros pontos turisticos.
+                            <br> Em Grão Pará - SC </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price"> $ 170.00 <span>$250.00</span> </div>
+                        <a href="#" class="btn">Faça já a sua reserva!</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/hospedagem/saudades.png" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Cabana Frame em meio à mata</h3>
+                        <p>"A <b> Cabana Frame</b> você não precisa mais sair do oeste para se sentir nas serras gaúchas e catarinenses. Encravada em meio à mata , no interior de Serra Alta,  com arquitetura única e de bom gosto, reúne o rústico a modernidade."<br> Em Saudade - SC </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $435.00 <span>$496.00</span> </div>
+                        <a href="#" class="btn">Faça já a sua reserva!</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/hospedagem/praia grande .png" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Chalé Suíço </h3>
+                    <p>"Próximo aos maiores canyons do Brasil. Aqui é possível realizar muitos passeios maravilhosos com; voo de balão, cavalgadas, muitas trilhas, rapel em cascatas,  escalada em montanhas, tirolesas, passeios de quadriciclos e cultura local. <br> Em Praia Grande - SC </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $368.00 <span>$460.00</span> </div>
+                        <a href="#" class="btn">Faça já a sua reserva!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- packages section ends -->
+        <!-- review section starts  -->
+        <section class="review" id="review">
+            <h1 class="heading">
+                <span>C</span>
+                <span>L</span>
+                <span>I</span>
+                <span>E</span>
+                <span>N</span>
+                <span>T</span>
+                <span>E</span>
+                <span>S</span>
+            </h1>
+            <div class="swiper-container review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/pic1.png" alt="">
+                            <h3>Suzana Silveira1</h3>
+                            <p>Somos muito gratos ao site por nos apresentar a <b>Vilage Floriana</b> um verdadeiro Paraiso, Mais do que indico.</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <img src="images/pic2.png" alt="">
+                            <h3>Anderson Schmith2</h3>
+                            <p>“O Chalé das <b>Chácaras das Estrelas</b> é maravilhoso, cama confortável e a localização ótima. Vale muito a pena conhecer, eu recomendo.”</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <img src="images/pic5.png" alt="">
+                            <h3>Vanessa Hayashe3</h3>
+                            <p>A <b>Casa de Campo Deucher</b> nos proporcionou uma experiência fantástica! Desde a recepção!Com certeza indicamos e voltaremos.”</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <img src="images/pic6.jpg" alt="">
+                            <h3>Vanessa Hayashe4</h3>
+                            <p>A <b>Casa de Campo Deucher</b> nos proporcionou uma experiência fantástica! Desde a recepção!Com certeza indicamos e voltaremos.”</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <img src="images/pic7.png" alt="">
+                            <h3>Vanessa Hayashe5</h3>
+                            <p>A <b>Casa de Campo Deucher</b> nos proporcionou uma experiência fantástica! Desde a recepção!Com certeza indicamos e voltaremos.”</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <img src="images/pic8.png" alt="">
+                            <h3>Vanessa Hayashe6</h3>
+                            <p>A <b>Casa de Campo Deucher</b> nos proporcionou uma experiência fantástica! Desde a recepção!Com certeza indicamos e voltaremos.”</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <img src="images/pic9.png" alt="">
+                            <h3>Vanessa Hayashe7</h3>
+                            <p>A <b>Casa de Campo Deucher</b> nos proporcionou uma experiência fantástica! Desde a recepção!Com certeza indicamos e voltaremos.”</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <img src="images/pic10.png" alt="">
+                            <h3>Vanessa Hayashe8</h3>
+                            <p>A <b>Casa de Campo Deucher</b> nos proporcionou uma experiência fantástica! Desde a recepção!Com certeza indicamos e voltaremos.”</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <img src="images/pic11.png" alt="">
+                            <h3>Vanessa Hayashe9</h3>
+                            <p>A <b>Casa de Campo Deucher</b> nos proporcionou uma experiência fantástica! Desde a recepção!Com certeza indicamos e voltaremos.”</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <img src="images/pic3.png" alt="">
+                            <h3>Vanessa Hayashe10</h3>
+                            <p>A <b>Casa de Campo Deucher</b> nos proporcionou uma experiência fantástica! Desde a recepção!Com certeza indicamos e voltaremos.”</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <img src="images/pic4.png" alt="">
+                            <h3>Jonathan Silva11</h3>
+                            <p>“O <b>Chalé Nascer do Sol</b> é maravilhoso, muito limpo e organizado. A anfitriã Darlene é nota 1000!!! Voltaremos mais vezes com certeza!”</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- review section ends -->
+        <!-- book section starts  -->
+        <section class="book" id="book">
+            <h1 class="heading">
+                <span>A</span>
+                <span>G</span>
+                <span>E</span>
+                <span>N</span>
+                <span>D</span>
+                <span>E</span>
+            <span class="space"></span>
+                <span>S</span>
+                <span>U</span>
+                <span>A</span>
+                <span class="space"></span>
+                <span>H</span>
+                <span>O</span>
+                <span>S</span>
+                <span>P</span>
+                <span>E</span>
+                <span>D</span>
+                <span>A</span>
+                <span>G</span>
+                <span>E</span>
+                <span>M</span>
+            </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="images/book-img.svg" alt="">
+                </div>
+                <form action="">
+                    <div class="inputBox">
+                        <h3>Qual chalé ou pousada?</h3>
+                        <input type="text" placeholder="Escolha o local">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Reserva para quantas pessoas?</h3>
+                        <input type="number" placeholder="Quantos?">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Chegada</h3>
+                        <input type="date">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Saida</h3>
+                        <input type="date">
+                    </div>
+                    <input type="submit" class="btn" value="Reservar">
+                </form>
+
+            </div>
+
+        </section>
+        <!-- book section ends -->
+        <!-- contact section starts  -->
+        <section class="contact" id="contact">    
+            <h1 class="heading">
+                <span>C</span>
+                <span>O</span>
+                <span>N</span>
+                <span>T</span>
+                <span>A</span>
+                <span>T</span>
+                <span>O</span>
+            </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="images/contact-img.svg" alt="">
+                </div>
+                <form class="form" method="POST" action="./email.php">
+                    <div class="inputBox">
+                        <input class="field" name="name" placeholder="Nome">
+                        <input class="field" type="email" name="masage" placeholder="E-mail">
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" placeholder="Número">
+                        <input type="text" placeholder="subject">
+                    </div>
+                    <textarea placeholder="mensagem" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" class="btn" value="Envie sua mensagem">
+                </form>
+            </div>    
+        </section>
+        <!-- contact section ends -->
+        <!--PATROCINIO section  -->
+        <section class="brand-container">
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/patrocinio/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/patrocinio/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/patrocinio/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/patrocinio/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/patrocinio/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/patrocinio/6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/patrocinio/07.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/patrocinio/08.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/patrocinio/09.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/patrocinio/10.jpg" alt=""></div>
+            </div>
+        </div>
+        </section>
+        <!--END PATROCINIO-->
+        <!--start footer section  -->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Quem somos?</h3>
+                        <p>Somos um guia turistico do Sul de Santa Catarina. Contém dicas de Passeios, Hospedagem, Alimentação.</p>
+                </div>
+                <div class="box">
+                    <h3>Cidades Citadas</h3>
+                        <a href="#">Garopaba</a>
+                        <a href="#">Imbituba</a>
+                        <a href="#">Laguna</a>
+                        <a href="#">Treze de Maio</a>
+                        <a href="#">Grão Pará</a>
+                        <a href="#">Bom Jesus da Serra</a>
+                        <a href="#">Praia Grande</a>
+                        <a href="#">Saudade</a>
+                </div>
+                <div class="box">
+                    <h3>Menu</h3>
+                        <a href="#">Home</a>
+                        <a href="#">Reservas</a>
+                        <a href="#">Onde ficar?</a>
+                        <a href="#">Serviços</a>
+                        <a href="#">Galeria</a>
+                        <a href="#">Clientes</a>
+                        <a href="#">Contato</a>
+                </div>
+                <div class="box">
+                    <h3>Redes Sociais</h3>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Linkedin</a>
+                </div>
+            </div>
+            <h1 class="credit"> created by <span> V&T Soluções - web designer </span> | all rights reserved! </h1>
+        </section>
+        <!--endfooter-->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- custom js file link  -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
